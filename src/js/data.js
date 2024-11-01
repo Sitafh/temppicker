@@ -3,7 +3,16 @@
  
 @type {Object.<string, {options: Options, characterData: CharData}>}
  
-const dataSet = {};
+const dataSet = {
+ {
+  name: 'y',
+  img: 'youji.png',
+  opts: {
+    schoolboy: true
+    ...
+  }
+}
+};
 
 /** 
  * Data set version, in YYYY-MM-DD form.
